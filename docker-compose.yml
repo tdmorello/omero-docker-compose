@@ -43,4 +43,12 @@ networks:
 
 volumes:
   database:
+       driver_opts:
+           type: none
+           device: ${DB_VOLUME} 
+           o: bind
   omero:
+       driver_opts:
+           type: none
+           device: ${OMERO_VOLUME}
+           o: bind
