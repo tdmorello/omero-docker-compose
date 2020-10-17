@@ -1,0 +1,2 @@
+config append -- omero.web.mapr.config '{"menu": "antibody", "config":{"default":["Primary Antibody"], "all":["Primary Antibody", "Secondary Antibody"], "ns":["openmicroscopy.org/omero/client/mapAnnotation"], "label":"Antibody"}}'
+config append -- omero.web.ui.top_links '["Antibodies", {"viewname": "maprindex_antibody"}, {"title": "Find Antibody values"}]'
